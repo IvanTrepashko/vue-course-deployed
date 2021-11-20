@@ -1,21 +1,40 @@
 <template>
-    <div class="row">
-        <div class="col">    
-            <base-card>
-                <button @click="changeApp('todo-list')" class="btn btn-outline-primary">ToDo List</button>
-            </base-card>
+    <div class="container">
+        <div class="row">
+            <div class="col">    
+                <base-card>
+                    <button @click="changeApp('todo-list')" class="btn btn-outline-primary">ToDo List</button>
+                </base-card>
+            </div>
+            <div class="col">    
+                <base-card>
+                    <button @click="changeApp('monster-game')" class="btn btn-outline-primary">Monster game</button>
+                </base-card>
+            </div>
+            <div class="col">    
+                <base-card>
+                    <button @click="changeApp('language-cards')" class="btn btn-outline-primary">Language cards</button>
+                </base-card>
+            </div>
         </div>
-        <div class="col">    
-            <base-card>
-                <button @click="changeApp('monster-game')" class="btn btn-outline-primary">Monster game</button>
-            </base-card>
+        <div class="row">
+            <div class="col">    
+                <base-card>
+                    <button @click="changeApp('tic-tac-toe')" class="btn btn-outline-primary">TicTacToe</button>
+                </base-card>
+            </div>
+            <div class="col">    
+                <base-card>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, quaerat.
+                </base-card>
+            </div>
+            <div class="col">    
+                <base-card>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, aspernatur?
+                </base-card>
+            </div>
         </div>
-        <div class="col">    
-            <base-card>
-                <button @click="changeApp('language-cards')" class="btn btn-outline-primary">Language cards</button>
-            </base-card>
-        </div>
-    </div>    
+    </div>
 </template>
 
 <script>
