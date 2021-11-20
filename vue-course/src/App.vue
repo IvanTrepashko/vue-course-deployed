@@ -13,6 +13,7 @@ import TodoList from './components/todolist/TodoList.vue'
 import MonsterGame from './components/monster/MonsterGame.vue'
 import LanguageCards from './components/language/LanguageCards.vue'
 import TicTacToe from './components/tictactoe/TicTacToe.vue'
+import TheResources from './components/learning/TheResources.vue'
 
 export default {
   provide: {
@@ -26,7 +27,8 @@ export default {
     TodoList,
     MonsterGame,
     LanguageCards,
-    TicTacToe
+    TicTacToe,
+    TheResources
   },
   data() {
     return {

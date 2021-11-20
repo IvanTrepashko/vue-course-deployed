@@ -4,7 +4,7 @@
                 <div class="col-sm">
                     <div class="mx-auto">
                         <div class="input-group mb-4">
-                            <input type="text" class="form-control" placeholder="Enter the task" v-model="taskValue">
+                            <input type="text" class="form-control" placeholder="Enter the task" v-model="taskValue" required>
                             <button class="btn btn-outline-secondary" @click="addTask" type="button" id="add-button">Add</button>
                         </div>
                         <ul class="list-group">

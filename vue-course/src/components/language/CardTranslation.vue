@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import BaseCard from '../BaseCard.vue'
+import BaseCard from '../ui/BaseCard.vue'
 
 export default {
     data() {

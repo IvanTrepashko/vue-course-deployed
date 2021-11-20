@@ -25,7 +25,7 @@
             </div>
             <div class="col">    
                 <base-card>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, quaerat.
+                    <button @click="changeApp('the-resources')" class="btn btn-outline-primary">Learning resources</button>
                 </base-card>
             </div>
             <div class="col">    
@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import BaseCard from './BaseCard.vue';
+import BaseCard from './ui/BaseCard.vue';
 
 export default {
     components: { BaseCard },
