@@ -44,9 +44,11 @@ export default {
           this.isWinnerDetermined = this.checkForWinner();
           this.currentSign = this.currentSign === 'X' ? '0' : 'X';
           this.turnsCount++;
-          if (!this.isWinnerDetermined && this.turns == 9) {
+
+          if (!this.isWinnerDetermined && this.turnsCount === 9) {
             this.isWinnerDetermined = true;
           }
+
         },
         checkForWinner() {
           let board = this.field;
